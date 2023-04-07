@@ -1,0 +1,172 @@
+BODY {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #FAF8EE;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-nav,
+.container-fluid {
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0px 10px;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.text-muted {
+    font-size: 18px;
+}
+
+/*Для кнопок*/
+.btn-mainMenu {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    background-color: #F2762E;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+}
+.btn-orangLight {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 116px;
+    height: 48px;
+    background-color: #F2762E;
+    border: 0;
+    box-shadow: 0px 4px 25px rgba(242, 118, 46, 0.5);
+    border-radius: 34px;
+}
+.btn-transparent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #F2762E;
+    width: 179px;
+    height: 48px;
+    background-color: #FAF8EE;
+    border: 2;
+    border-color: #F2762E;
+    border-radius: 34px;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+    color: #000000;    
+    border-color: #F2762E;
+}
+
+
+.btn-orangLight:hover,
+.btn-orangLight:focus,
+.btn-mainMenu:hover,
+.btn-mainMenu:focus {
+    color: #000000;
+    background-color: #F2762E;
+}
+
+.whiteGradient {
+    background-color: #FAF9F2;
+    background: linear-gradient(to top, #FAF9F2 0%, #FFFFFF 36%, #FAF9F2 100%);
+}
+
+.grad1 {
+    background-color: #FAF9F2;
+    background: linear-gradient(to right, #fbf7e4 0%, #fdfbf0 100%);
+}
+
+.grad2 {
+    background-color: #FAF9F2;
+    background: linear-gradient(to right, #fdfbf0 0%, #FFFFFF 100%);
+}
+
+.bigText {
+    /* Фрукти та ягоди нового покоління */
+    font-family: 'Nunito', sans-serif;
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100%;
+
+    color: #242426;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallText {
+    /* Вашому організму потрібні цілі і натуральні фрукти, а не добавки та вітаміни! */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #83898C;
+}
+
+@media (min-width: 576px) {
+    .bigText {
+        font-size: 60px;
+    }
+
+    .smallText {
+        font-size: 18px;
+    }
+}
+
+.smallTitle {
+    width: 100%;
+    font-weight: 700;
+    font-size: 26px;
+    color: #242426;
+    padding-top: 186px;
+}
+
+.slide1 {
+    background-image: url("../images/2/slide_1_370_Top.png");
+    background-color: #ffed9a;
+}
+.slide2 {
+    background-image: url("../images/2/slide_2_370_Top.png");
+    background-color: #fecfd5;
+}
+
+.slide3 {
+    background-image: url("../images/2/slide_3_370_Top.png");
+    background-color: #fecfd5;
+}
+
+.slideBackgroundPosition {
+    width: 370px;
+    /* height: 350px; */
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 0 0 50px 50px;
+    -webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+.smallTextOnSlide {
+    padding-top: 12px;
+}
+
+.carousel-caption {
+    font-weight: 700;
+    font-size: 14px;
+    
+    line-height: 100%;
+    color: #242426;
+    padding-top: 186px;
+}
