@@ -137,18 +137,7 @@ BODY {
     color: #83898C;
 }
 
-@media (min-width: 576px) {
-    .firstBlock{
-        padding-top: 70px;
-    }
-    .bigText {
-        font-size: 60px;
-    }
 
-    .smallText {
-        font-size: 18px;
-    }
-}
 
 .smallTitle {
     width: 100%;
@@ -175,7 +164,6 @@ BODY {
 
 .slideBackgroundPosition {
     width: 370px;
-    /* height: 350px; */
     background-repeat: no-repeat;
     background-position: center top;
     border-radius: 0 0 50px 50px;
@@ -194,4 +182,63 @@ BODY {
     line-height: 100%;
     color: #242426;
     padding-top: 186px;
+}
+
+.orang {
+    font-size: 36px;
+    font-weight: 700;
+    color: #F2762E;
+    text-shadow: none;
+}
+
+@media (min-width: 576px) {
+    .firstBlock {
+        padding-top: 70px;
+    }
+
+    .bigText {
+        font-size: 60px;
+    }
+
+    .smallText {
+        font-size: 18px;
+    }
+
+    .orang {
+        font-size: 50px;
+    }
+}
+
+#block3 {
+    background-image: url(../images/3/leaf_shadow.png);
+    background-repeat: no-repeat;
+}
+
+.white {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+#geen-block {
+    background-image: url(../images/4/left_mix.png);
+    background-color: #FAF9F2;
+
+    width: 1258px;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-radius: 0 0 50px 50px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.whiteBullet {
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+#geen-block-mobile {
+    background-color: #11ad45;
+    border-radius: 50px;
 }
