@@ -8,6 +8,16 @@ BODY {
     -webkit-overflow-scrolling: touch;
 }
 
+.navbar-toggler:active.focus,
+.navbar-toggler:active:focus,
+.navbar-toggler:focus {
+outline: 0!important;
+outline-color: transparent!important;
+outline-width: 0!important;
+outline-style: none!important;
+box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
+
 .navbar-nav,
 .container-fluid {
     align-items: center;
