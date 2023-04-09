@@ -8,14 +8,27 @@ BODY {
     -webkit-overflow-scrolling: touch;
 }
 
+.firstBlock {
+    /* Сверху | Справа | Снизу | Слева */
+    padding-top: 100px;
+}
+
+.block-padding {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.navbar-toggler,
 .navbar-toggler:active.focus,
 .navbar-toggler:active:focus,
 .navbar-toggler:focus {
-outline: 0!important;
-outline-color: transparent!important;
-outline-width: 0!important;
-outline-style: none!important;
-box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+    border: 0;
+    outline: 0 !important;
+    outline-color: transparent !important;
+    outline-width: 0 !important;
+    outline-style: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
 }
 
 .navbar-nav,
@@ -25,10 +38,6 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 
 .nav-link {
     margin: 0px 10px;
-}
-
-.navbar-toggler {
-    border: 0;
 }
 
 .text-muted {
@@ -48,6 +57,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 34px;
 }
+
 .btn-orangLight {
     font-weight: 700;
     font-size: 18px;
@@ -60,6 +70,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
     box-shadow: 0px 4px 25px rgba(242, 118, 46, 0.5);
     border-radius: 34px;
 }
+
 .btn-transparent {
     font-weight: 700;
     font-size: 18px;
@@ -75,7 +86,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-    color: #000000;    
+    color: #000000;
     border-color: #F2762E;
 }
 
@@ -127,6 +138,9 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 }
 
 @media (min-width: 576px) {
+    .firstBlock{
+        padding-top: 70px;
+    }
     .bigText {
         font-size: 60px;
     }
@@ -148,6 +162,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
     background-image: url("../images/2/slide_1_370_Top.png");
     background-color: #ffed9a;
 }
+
 .slide2 {
     background-image: url("../images/2/slide_2_370_Top.png");
     background-color: #fecfd5;
@@ -165,7 +180,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
     background-position: center top;
     border-radius: 0 0 50px 50px;
     -webkit-font-smoothing: antialiased;
-	-webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .smallTextOnSlide {
@@ -175,7 +190,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 .carousel-caption {
     font-weight: 700;
     font-size: 14px;
-    
+
     line-height: 100%;
     color: #242426;
     padding-top: 186px;
