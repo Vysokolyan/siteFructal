@@ -104,16 +104,6 @@ BODY {
     background: linear-gradient(to top, #FAF9F2 0%, #FFFFFF 36%, #FAF9F2 100%);
 }
 
-.grad1 {
-    background-color: #FAF9F2;
-    background: linear-gradient(to right, #fbf7e4 0%, #fdfbf0 100%);
-}
-
-.grad2 {
-    background-color: #FAF9F2;
-    background: linear-gradient(to right, #fdfbf0 0%, #FFFFFF 100%);
-}
-
 .bigText {
     /* Фрукти та ягоди нового покоління */
     font-family: 'Nunito', sans-serif;
@@ -137,14 +127,15 @@ BODY {
     color: #83898C;
 }
 
-
+.padtop186 {
+    padding-top: 186px;
+}
 
 .smallTitle {
     width: 100%;
     font-weight: 700;
     font-size: 26px;
     color: #242426;
-    padding-top: 186px;
 }
 
 .slide1 {
@@ -209,7 +200,7 @@ BODY {
     }
 }
 
-#block3 {
+#blockWithPersents {
     background-image: url(../images/3/leaf_shadow.png);
     background-repeat: no-repeat;
 }
@@ -217,19 +208,6 @@ BODY {
 .white {
     color: #FFFFFF;
     text-shadow: none;
-}
-
-#geen-block {
-    background-image: url(../images/4/left_mix.png);
-    background-color: #FAF9F2;
-
-    width: 1258px;
-    height: 624px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    border-radius: 0 0 50px 50px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
 }
 
 .whiteBullet {
@@ -249,4 +227,11 @@ BODY {
 
 .bottomOffset {
     margin-top: 50px;
+}
+
+.mark {
+    background-color:rgba(242, 118, 46, 0.5);
+}
+.mark2 {
+    background-color:rgba(0, 118, 46, 0.5);
 }
