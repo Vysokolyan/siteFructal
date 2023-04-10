@@ -238,7 +238,15 @@ BODY {
     height: 20px;
 }
 
-#geen-block-mobile {
-    background-color: #11ad45;
+.green {
+    background-color: #399238;
     border-radius: 50px;
+}
+
+.topOffset {
+    margin-top: -70px;
+}
+
+.bottomOffset {
+    margin-top: 50px;
 }
