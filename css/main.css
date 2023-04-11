@@ -226,6 +226,10 @@ BODY {
     margin-top: 50px;
 }
 
+.topOffset_bigPlate {
+    margin-top: -90px;
+}
+
 .mark {
     background-color: rgba(242, 118, 46, 0.5);
 }
