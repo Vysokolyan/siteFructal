@@ -248,17 +248,9 @@ BODY {
 .startHDG {
     background-image: url(../images/8_quote/hdg.png);
     background-repeat: no-repeat;
-    background-size: 20px auto;
+    background-size: 28px auto;
     background-position: right top;
 }
-
-.endHDG {
-    background-image: url(../images/8_quote/hdg.png);
-    background-repeat: no-repeat;
-    background-size: 20px auto;
-    background-position: left 80%;
-}
-
 .orangText {
     color: #F2762E;
 }
