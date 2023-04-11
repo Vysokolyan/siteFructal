@@ -237,12 +237,30 @@ BODY {
     border-radius: 50px;
 }
 
-.y_topOffset{
+.y_topOffset {
     margin-top: -190px;
 }
 
 .y_bottomOffset {
     margin-top: 180px;
+}
+
+.startHDG {
+    background-image: url(../images/8_quote/hdg.png);
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: right top;
+}
+
+.endHDG {
+    background-image: url(../images/8_quote/hdg.png);
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: left 80%;
+}
+
+.orangText {
+    color: #F2762E;
 }
 
 .mark {
