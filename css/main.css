@@ -17,6 +17,8 @@ BODY {
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-toggler,
@@ -228,6 +230,19 @@ BODY {
 
 .topOffset_bigPlate {
     margin-top: -90px;
+}
+
+.yellow {
+    background-color: #F2762E;
+    border-radius: 50px;
+}
+
+.y_topOffset{
+    margin-top: -190px;
+}
+
+.y_bottomOffset {
+    margin-top: 180px;
 }
 
 .mark {
