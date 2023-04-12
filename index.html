@@ -38,7 +38,7 @@
             <a id="lnk1" class="nav-link" href="#home">Головна</a>
             <a id="lnk2" class="nav-link" href="#geen-block">Про&nbsp;нас</a>
             <a id="lnk3" class="nav-link" href="#stages">Виробництво</a>
-            <a id="lnk4" class="nav-link" href="#">Замовлення</a>
+            <a id="lnk4" class="nav-link" href="#order">Замовлення</a>
             <a id="lnk5" class="nav-link" href="#blog">Блог</a>
           </div>
           <div class="navbar-nav ms-auto">
@@ -196,6 +196,7 @@
         </div>
       </div>
 
+      <div id="geen-block"></div>
       <div class="d-block d-lg-none">
         <div class="row">
           <div class="col text-center">
@@ -205,7 +206,7 @@
       </div>
     </div>
 
-    <div id="geen-block" class="row green bottomOffset block-padding">
+    <div class="row green bottomOffset block-padding">
       <div class="col-lg-6 col-12 text-center topOffset">
         <img src="images/4/left_mix_above.png" class="img-fluid" alt="">
       </div>
@@ -231,18 +232,18 @@
             <p class="smallText white"> Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
-
+        
         <div class="row pb-3 px-3">
           <div class="col-1">
             <p class="whiteBullet rounded-circle "></p>
           </div>
           <div class="col-11">
             <p class="smallText white"> Lorem ipsum dolor sit amet, consectetur</p>
+            <div id="stages"></div>
           </div>
         </div>
       </div>
     </div>
-
     <div id="stages" class="row">
       <div class="col text-center">
         <p class="bigText pt-5">Stages</p>
@@ -456,6 +457,7 @@
           <button class="accordion-button s-btn collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
             aria-controls="panelsStayOpen-collapseThree">
+            <div id="order"></div>
             <p class="smallTitle white">Питання #3</p>
           </button>
         </h2>
@@ -464,9 +466,43 @@
           <div class="accordion-body">
             <p class="smallTextOnSlide white">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar cons
               elementum tempus hac.</p>
+              
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
+      
+      
+      <div class="col-lg-7 col-md-12">
+        <form target="_blank" action="https://formsubmit.co/dolgopolov_a@ukr.net" method="POST">
+          <p class="smallTitle pb-3">Get in touch today</p>
+          <p class="smallText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et </p>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <p class="smallText mt-4">Name</p>
+              <input type="text" name="name" class="form-control" placeholder="Name">
+              <p class="smallText mt-4">Phone</p>
+              <input type="text" name="phone" class="form-control" placeholder="(123) 456 - 789">
+            </div>
+            <div class="col-lg-6 col-12">
+              <p class="smallText mt-4">Email</p>
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              <p class="smallText mt-4">Company</p>
+              <input type="text" name="company" class="form-control" placeholder="Company">
+            </div>
+          </div>
+          <p class="smallText mt-4">Leave us message</p>
+          <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
+          <input type="hidden" name="_captcha" value="false">
+          <button type="submit" href="" class="btn btn-orangLight m-3">Надіслати</button>
+        </form></div>
+      <div class="col-lg-5 col-md-12">
+        <img src="images/11_form/11_form.png" class="img-fluid rounded-4" alt="">
+      </div>
+
     </div>
 
     <footer class="text-center">
@@ -527,7 +563,7 @@
     </div>
 
   </div>
-  <script type="text/javascript" src = "js/custom.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
 </html>

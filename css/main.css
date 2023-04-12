@@ -5,7 +5,7 @@
     --white-color: #FFFFFF;
     --green-color: #399238;
     --muted-color: #83898C;
-  }
+}
 
 BODY {
     color: var(--black-color);
@@ -23,8 +23,10 @@ BODY {
 }
 
 .block-padding {
+    margin-top: -50px;
+    padding-top: 80px;
+    /* padding-bottom: 30px; */
     padding-right: 30px;
-    padding-bottom: 30px;
     padding-left: 30px;
     margin-left: 10px;
     margin-right: 10px;
@@ -108,6 +110,10 @@ BODY {
 .btn-mainMenu:focus {
     color: var(--black-color);
     background-color: var(--orang-color);
+}
+
+.btn-long {
+    width: 300px !important;
 }
 
 .whiteGradient {
