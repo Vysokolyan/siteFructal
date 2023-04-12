@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
 
+  <link type="Image/x-icon" href="images/favicon.ico" rel="icon">
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary whiteGradient">
       <div class="container-xl">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#home">
           <img src="images/0/logo.svg" class="img-fluid" alt="FRUCTAL">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -33,20 +35,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#">Головна</a>
-            <a class="nav-link" href="#">Про&nbsp;нас</a>
-            <a class="nav-link" href="#">Виробництво</a>
-            <a class="nav-link" href="#">Замовлення</a>
-            <a class="nav-link" href="#">Блог</a>
+            <a id="lnk1" class="nav-link" href="#home">Головна</a>
+            <a id="lnk2" class="nav-link" href="#geen-block">Про&nbsp;нас</a>
+            <a id="lnk3" class="nav-link" href="#stages">Виробництво</a>
+            <a id="lnk4" class="nav-link" href="#">Замовлення</a>
+            <a id="lnk5" class="nav-link" href="#blog">Блог</a>
           </div>
           <div class="navbar-nav ms-auto">
-            <a href="" class="btn btn-mainMenu">Замовити</a>
+            <a id="lnk6" href="#" class="btn btn-mainMenu" type="submit">Замовити</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="row firstBlock block-padding">
+    <div id="home" class="row firstBlock block-padding">
       <div class="col-lg-6 col-12">
         <div class="d-none d-lg-block">
           <img src="images/1/leaf.png" class="img-fluid" alt="">
@@ -525,7 +527,7 @@
     </div>
 
   </div>
-
+  <script type="text/javascript" src = "js/custom.js"></script>
 </body>
 
 </html>
