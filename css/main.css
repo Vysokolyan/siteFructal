@@ -257,10 +257,11 @@ BODY {
 }
 
 .startHDG {
-    background-image: url(../images/8_quote/hdg.png);
-    background-repeat: no-repeat;
-    background-size: 28px auto;
-    background-position: right top;
+    margin-left: -60px;
+}
+
+.spaceHDG {
+    padding-left: 50px;
 }
 
 .orangText {
