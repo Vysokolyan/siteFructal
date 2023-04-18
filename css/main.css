@@ -18,13 +18,7 @@ BODY {
 }
 
 .anchorBlock {
-    height: 80px;
-}
-
-.block-padding {
-    padding: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 70px;
 }
 
 .navbar-toggler,
@@ -104,10 +98,6 @@ BODY {
 .btn-mainMenu:focus {
     color: var(--black-color);
     background-color: var(--orang-color);
-}
-
-.btn-long {
-    width: 300px !important;
 }
 
 .whiteGradient {
@@ -217,13 +207,10 @@ BODY {
 
 .white {
     color: var(--white-color);
-    text-shadow: none;
 }
 
 .whiteBullet {
-    background-color: var(--white-color);
-    width: 20px;
-    height: 20px;
+    font-size: 26px !important;
 }
 
 .green {
@@ -245,7 +232,7 @@ BODY {
 
 .yellow {
     background-color: var(--orang-color);
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .y_topOffset {
