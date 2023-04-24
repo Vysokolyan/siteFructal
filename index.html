@@ -53,7 +53,7 @@
           <img src="images/1/leaf.png" class="img-fluid" alt="">
         </div>
         <p class="bigText">Fruits and berries of the new generation</p>
-        <a href="#order" class="btn btn-orangLight m-2">Order</a>
+        <a href="" class="btn btn-orangLight  m-2" data-bs-toggle="modal" data-bs-target="#qorder">Order</a>
       </div>
       <div class="col-lg-6 col-12 text-center">
         <img src="images/1/mix.png" class="img-fluid" alt="">
@@ -190,8 +190,6 @@
         </div>
         <div class="container pb-1">
           <p class="smallText white"><span class="whiteBullet">&bull;&nbsp;</span> Fruits (apricot, apple, pearl)</p>
-        </div>
-        <div class="container pb-1">
         </div>
       </div>
     </div>
@@ -581,6 +579,38 @@
               </p>
             </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="qorder" tabindex="-1" aria-labelledby="qorder_Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="smallTitle pt-2">Order</p>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form target="_blank" action="https://formsubmit.co/dolhopolov@online.ua" method="POST">
+              <div class="row">
+                <div class="col-lg-6 col-12 text-center">
+                  <img src="images/12_orderModal/box_on_blue_bg.png" class="img-fluid rounded-4" alt="">
+                </div>
+                <div class="col-lg-6 col-12">
+                  <p class="smallTitle pb-1">Leave your contacts for pre-order now and earn a 10% discount</p>
+                  <p class="smallText mt-3">Name</p>
+                  <input type="text" name="name" class="form-control" placeholder="Name">
+                  <p class="smallText mt-3">Email</p>
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  <p class="smallText mt-3">Leave us message</p>
+                  <textarea placeholder="Your Message" class="form-control" name="message" rows="7" required></textarea>
+                  <input type="hidden" name="_next" value="https://vysokolyan.github.io/siteFructal/pages/thanks.html">
+                  <input type="hidden" name="_captcha" value="false">
+                  <button type="submit" href="" class="btn btn-orangLight m-3">Send</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
