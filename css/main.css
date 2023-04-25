@@ -216,14 +216,16 @@ BODY {
 .green {
     background-color: var(--green-color);
     border-radius: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 60px;
+    margin-bottom: -120px;
+    padding-bottom: 110px;
+
 }
 
 .topOffset {
     margin-top: -70px;
-}
-
-.bottomOffset {
-    margin-top: 50px;
 }
 
 .topOffset_bigPlate {
