@@ -213,9 +213,9 @@ BODY {
     font-size: 26px !important;
 }
 
-.green {
+#geen-block {
     background-color: var(--green-color);
-    border-radius: 50px;
+    border-radius: 40px;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 60px;
@@ -235,6 +235,8 @@ BODY {
 .yellow {
     background-color: var(--orang-color);
     border-radius: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .y_topOffset {
@@ -312,11 +314,7 @@ BODY {
     color: var(--white-color) !important;
 }
 
- 
-
-
-
-.modalWindowColor {
+.modal-content {
     background-color: var(--backg-color);
 }
 
