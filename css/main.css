@@ -102,7 +102,7 @@ BODY {
 
 .whiteGradient {
     background-color: var(--backg-color);
-    background: linear-gradient(to top, var(--backg-color) 0%, var(--white-color) 36%, var(--backg-color) 100%);
+    background: linear-gradient(to top, var(--backg-color) 0%, var(--white-color) 60%, var(--backg-color) 100%);
 }
 
 .bigText {
@@ -219,8 +219,8 @@ BODY {
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 60px;
-    margin-bottom: -120px;
-    padding-bottom: 110px;
+    margin-bottom: -140px;
+    padding-bottom: 120px;
 
 }
 
@@ -312,12 +312,12 @@ BODY {
     color: var(--white-color) !important;
 }
 
-.mark {
-    background-color: rgba(242, 118, 46, 0.5);
-}
+ 
 
-.mark2 {
-    background-color: rgba(0, 118, 45, 0.377);
+
+
+.modalWindowColor {
+    background-color: var(--backg-color);
 }
 
 .smallTextOnSlide {
