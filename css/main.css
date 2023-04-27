@@ -224,7 +224,7 @@ BODY {
 
 }
 
-.topOffset {
+.green_imgMoveUp {
     margin-top: -70px;
 }
 
@@ -232,19 +232,16 @@ BODY {
     margin-top: -90px;
 }
 
-.yellow {
+#yellow-block {
     background-color: var(--orang-color);
     border-radius: 40px;
     margin-left: 2px;
     margin-right: 2px;
+    margin-top: 100px;
 }
 
-.y_topOffset {
-    margin-top: -190px;
-}
-
-.y_bottomOffset {
-    margin-top: 180px;
+.yellow_imgMoveUp {
+    margin-top: -100px;
 }
 
 .startHDG {
