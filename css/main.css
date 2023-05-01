@@ -324,10 +324,10 @@ BODY {
 }
 
 #footerOpen {
-    height: 220px;
+    height: 80px;
 }
 
 #footerClose {
-    height: 60px;
+    height: 10px;
     background-color: var(--backg-color);
 }
