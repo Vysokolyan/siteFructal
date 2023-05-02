@@ -8,7 +8,7 @@
 }
 
 BODY {
-    color: var(--black-color);
+    color: var(--muted-color);
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -16,6 +16,7 @@ BODY {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
 
 .anchorBlock {
     height: 70px;
@@ -40,10 +41,6 @@ BODY {
 
 .nav-link {
     margin: 0px 10px;
-}
-
-.text-muted {
-    font-size: 18px;
 }
 
 .btn-mainMenu {
@@ -73,26 +70,6 @@ BODY {
     border-radius: 34px;
 }
 
-.btn-transparent {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    color: var(--orang-color);
-    width: 179px;
-    height: 48px;
-    background-color: var(--backg-color);
-    border: 2;
-    border-color: var(--orang-color);
-    border-radius: 34px;
-}
-
-.btn-transparent:hover,
-.btn-transparent:focus {
-    color: var(--black-color);
-    border-color: var(--orang-color);
-}
-
-
 .btn-orangLight:hover,
 .btn-orangLight:focus,
 .btn-mainMenu:hover,
@@ -107,41 +84,28 @@ BODY {
 }
 
 h1 {
-    font-family: 'Nunito', sans-serif;
-
     font-size: 35px;
     font-weight: 700;
     line-height: 100%;
-
-    color: var(--black-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bigText {
-    font-family: 'Nunito', sans-serif;
-
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 100%;
-
-    color: var(--black-color);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+@media (min-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
 }
 
-.smallText {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    color: var(--muted-color);
-}
-
-.smallTitle {
+h2 {
     width: 100%;
     font-weight: 700;
     font-size: 26px;
-    color: var(--black-color);
+}
+
+.size_h2 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 .slide1 {
@@ -170,7 +134,7 @@ h1 {
 }
 
 .minMargin {
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .carousel-caption {
@@ -189,24 +153,6 @@ h1 {
     text-shadow: none;
 }
 
-@media (min-width: 576px) {
-    .firstBlock {
-        padding-top: 70px;
-    }
-
-    .bigText {
-        font-size: 60px;
-    }
-
-    h1 {
-        font-size: 60px;
-    }
-
-    .smallText {
-        font-size: 18px;
-    }
-}
-
 @media (min-width: 1200px) {
     .orang {
         font-size: 28px;
@@ -222,11 +168,12 @@ h1 {
     color: var(--white-color);
 }
 
-.whiteBullet {
+.bullet {
     font-size: 26px !important;
 }
 
 #geen-block {
+    color: var(--white-color);
     background-color: var(--green-color);
     border-radius: 40px;
     margin-left: 2px;
@@ -234,7 +181,6 @@ h1 {
     margin-top: 60px;
     margin-bottom: -140px;
     padding-bottom: 120px;
-
 }
 
 .green_imgMoveUp {
@@ -246,6 +192,7 @@ h1 {
 }
 
 #yellow-block {
+    color: var(--white-color);
     background-color: var(--orang-color);
     border-radius: 40px;
     margin-left: 2px;
@@ -258,11 +205,11 @@ h1 {
 }
 
 .startHDG {
-    margin-left: -60px;
+    margin-left: -50px;
 }
 
 .spaceHDG {
-    padding-left: 50px;
+    padding-left: 52px;
 }
 
 .orangText {
