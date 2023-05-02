@@ -344,3 +344,7 @@ h1 {
     height: 8px;
     background-color: var(--backg-color);
 }
+
+figcaption {
+    color: var(--backg-color);
+}
