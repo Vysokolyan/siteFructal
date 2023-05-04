@@ -59,14 +59,18 @@
     <div id="home" class="anchorBlock"></div>
     <div class="row pt-2">
       <div class="col-lg-6 col-12">
-        <div class="d-none d-lg-block">
-          <img src="images/1/leaf.png" class="img-fluid" alt="leaf">
-        </div>
+        <picture>
+          <source media="(min-width:992px)" srcset="images/1/leaf.png">
+          <img src="images/1/leaf_empty.png" class="img-fluid" alt="leaf">
+        </picture>
         <h1>Fruits and berries of the new generation</h1>
       </div>
       <div class="col-lg-6 col-12 text-center">
         <figure>
-          <img src="images/1/mix.png" class="img-fluid" alt="fruktal">
+          <picture>
+            <source media="(min-width:576px)" srcset="images/1/mix.png">
+            <img src="images/1/mix360x330.png" class="img-fluid" alt="fruktal">
+          </picture>
           <figcaption>fruktal</figcaption>
         </figure>
       </div>
@@ -156,7 +160,7 @@
 
     <div id="blockWithPersents" class="row pt-5">
       <div class="col-xl-6 col-lg-12">
-        <h1>Complete the daily recommended fruits dose</h1>
+        <div class="px-2"><h1>Complete the daily recommended fruits dose</h1></div>
       </div>
       <div class="col-xl-6 col-lg-12">
         <div class="row border-bottom py-2">
@@ -182,9 +186,12 @@
       </div>
     </div>
 
-    <div id="geen-block" class="row">
+    <div id="green-block" class="row">
       <div class="col-lg-6 col-xs-12 text-center green_imgMoveUp">
-        <img src="images/4/left_mix_above.png" class="img-fluid" alt="">
+        <picture>
+          <source media="(min-width:576px)" srcset="images/4/left_mix_above.png">
+          <img src="images/4/left_mix_above_360.png" class="img-fluid" alt="fruktal">
+        </picture>
       </div>
       <div class="col-lg-6 col-xs-12">
         <div class="container my-3">
@@ -211,36 +218,30 @@
       </div>
       <div class="row mt-2" style="margin-left: 2px; margin-right: 2px;">
         <div class="col-12 col-md-4 text-center">
-          <div class="d-none d-md-block">
-            <img src="images/5_stages/1_fruit_Horizontal.png" class="img-fluid" alt="">
-          </div>
-          <div class="d-block d-md-none">
-            <img src="images/5_stages/1_fruit_Vertical.png" class="img-fluid " alt="">
-          </div>
+          <picture>
+            <source media="(min-width:768px)" srcset="images/5_stages/1_fruit_Horizontal.png">
+            <img src="images/5_stages/1_fruit_Vertical.png" class="img-fluid" alt="stage 1">
+          </picture>
           <div class="minMargin">
             <h2>50g</h2>
             <p class="minMargin">natural fruits and wild berries</p>
           </div>
         </div>
         <div class="col-12 col-md-4 text-center">
-          <div class="d-none d-md-block">
-            <img src="images/5_stages/2_dust_Horizontal.png" class="img-fluid" alt="">
-          </div>
-          <div class="d-block d-md-none">
-            <img src="images/5_stages/2_dust_Vertical.png" class="img-fluid " alt="">
-          </div>
+          <picture>
+            <source media="(min-width:768px)" srcset="images/5_stages/2_dust_Horizontal.png">
+            <img src="images/5_stages/2_dust_Vertical.png" class="img-fluid" alt="stage 1">
+          </picture>
           <div class="minMargin">
             <h2>5g</h2>
             <p class="minMargin">freeze drying and grinding to powder form</p>
           </div>
         </div>
         <div class="col-12 col-md-4 text-center">
-          <div class="d-none d-md-block">
-            <img src="images/5_stages/3_stick_Horizontal.png" class="img-fluid" alt="">
-          </div>
-          <div class="d-block d-md-none">
-            <img src="images/5_stages/3_stick_Vertical.png" class="img-fluid " alt="">
-          </div>
+          <picture>
+            <source media="(min-width:768px)" srcset="images/5_stages/3_stick_Horizontal.png">
+            <img src="images/5_stages/3_stick_Vertical.png" class="img-fluid" alt="stage 1">
+          </picture>
           <div class="minMargin">
             <h2>Ready-to-use</h2>
             <p class="minMargin">small sachet for convenient consumption</p>
@@ -251,7 +252,10 @@
 
     <div id="yellow-block" class="row pt-2">
       <div class="col-lg-6 col-xs-12 text-center yellow_imgMoveUp">
-        <img src="images/7_yellow/yellowBox.png" class="img-fluid" alt="">
+        <picture>
+          <source media="(min-width:576px)" srcset="images/7_yellow/yellowBox.png">
+          <img src="images/7_yellow/yellowBox_360.png" class="img-fluid" alt="fruktal">
+        </picture>
       </div>
       <div class="col-lg-6 col-xs-12">
         <div class="container my-3">
@@ -269,16 +273,11 @@
         <h1>Diversify your diet</h1>
       </div>
     </div>
-
-    <div class="row d-none d-sm-block">
-      <div class="col">
-        <img src="images/6_bigPlate/bigPlate.svg" class="img-fluid" alt="">
-      </div>
-    </div>
-    <div class="row d-block d-sm-none">
-      <div class="col">
-        <img src="images/6_bigPlate/halfBigPlate.svg" class="img-fluid" alt="">
-      </div>
+    <div class="row">
+      <picture>
+        <source media="(min-width:768px)" srcset="images/6_bigPlate/bigPlate.svg">
+        <img src="images/6_bigPlate/halfBigPlate.svg" class="img-fluid" alt="leaf">
+      </picture>
     </div>
 
     <div id="quote" class="row pt-5">
@@ -446,11 +445,13 @@
     <form target="_blank" action="https://formsubmit.co/dolhopolov@online.ua" method="POST">
       <div class="row pt-2">
         <div class="col-lg-6 col-12 text-center">
-          <img src="images/11_form/11_form.png" class="img-fluid rounded-4" alt="">
+          <picture>
+            <source media="(min-width:576px)" srcset="images/11_form/11_form.png">
+            <img src="images/11_form/11_form_360.png" class="img-fluid rounded-4" alt="fruktal">
+          </picture>
         </div>
         <div class="col-lg-6 col-12">
-          <div id="order" class="anchorBlock"></div>
-          <p class="size_h2 pb-3">Get in touch today</p>
+          <p class="size_h2 py-3">Get in touch today</p>
           <p>don't hesitate to reach out to us with any inquiries</p>
           <p class="mt-4">Name</p>
           <input type="text" name="name" class="form-control" placeholder="Name">
@@ -459,7 +460,7 @@
           <p class="mt-4">Phone</p>
           <input type="text" name="phone" class="form-control" placeholder="(123) 456 - 789">
           <p class="mt-4">Leave us message</p>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="7" required></textarea>
+          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
           <input type="hidden" name="_next" value="https://vysokolyan.github.io/siteFructal/pages/thanks.html">
           <input type="hidden" name="_captcha" value="false">
           <button type="submit" href="" class="btn btn-orangLight m-3">Send</button>
@@ -612,7 +613,10 @@
             <form target="_blank" action="https://formsubmit.co/dolhopolov@online.ua" method="POST">
               <div class="row">
                 <div class="col-lg-6 col-12 text-center">
-                  <img src="images/12_orderModal/box_on_blue_bg.png" class="img-fluid rounded-4" alt="">
+                  <picture>
+                    <source media="(min-width:576px)" srcset="images/12_orderModal/box_on_blue_bg.png">
+                    <img src="images/12_orderModal/box_on_blue_bg_360.png" class="img-fluid rounded-4" alt="">
+                  </picture>
                 </div>
                 <div class="col-lg-6 col-12">
                   <p class="size_h2 pb-1">Leave your contacts for pre-order now and earn a 10% discount</p>
@@ -621,7 +625,7 @@
                   <p class="mt-3">Email</p>
                   <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                   <p class="mt-3">Leave us message</p>
-                  <textarea placeholder="Your Message" class="form-control" name="message" rows="7" required></textarea>
+                  <textarea placeholder="Your Message" class="form-control" name="message" rows="4" required></textarea>
                   <input type="hidden" name="_next" value="https://vysokolyan.github.io/siteFructal/pages/thanks.html">
                   <input type="hidden" name="_captcha" value="false">
                   <button type="submit" href="" class="btn btn-orangLight m-3" data-bs-dismiss="modal"
